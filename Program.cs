@@ -4,17 +4,17 @@ using System.Linq;
 namespace NetworkModels {
     class Program {
         static void Main(string[] args) {
-            Network n = new Network(new int[] { 1, 5, 10, 5, 1 });
+            Network n = new Network(new int[] { 1, 10, 1 });
 
             List<DataSet> ds = new List<DataSet>();
-            for (int i = 0; i <= 10; i++)
+            for (int i = 1; i <= 5; i++)
                 ds.Add(new DataSet(new double[] {
                     (double) i / 100
                 }, new double[] {
                     (double) i * i / 100
                 }));
 
-            n.Train(ds, 0.001);
+            n.Train(ds, 0.01);
             while (true) {
                 Console.WriteLine("give inputs:\n");
                 string inputs = Console.ReadLine();
