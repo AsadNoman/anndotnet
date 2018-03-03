@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\asad\\repos\\networkmodels\\NetworkModels.csproj",
-      "projectName": "NetworkModels",
-      "projectPath": "D:\\asad\\repos\\networkmodels\\NetworkModels.csproj",
-      "outputPath": "D:\\asad\\repos\\networkmodels\\obj\\",
+      "projectUniqueName": "D:\\asad\\Repos\\anndotnet\\anndotnet.csproj",
+      "projectName": "anndotnet",
+      "projectPath": "D:\\asad\\Repos\\anndotnet\\anndotnet.csproj",
+      "outputPath": "D:\\asad\\Repos\\anndotnet\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/NetworkModels.dll": "D:\\asad\\repos\\networkmodels\\bin\\placeholder\\netcoreapp1.1\\NetworkModels.dll"
+        "lib/netcoreapp1.1/anndotnet.dll": "D:\\asad\\Repos\\anndotnet\\bin\\placeholder\\netcoreapp1.1\\anndotnet.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetworkModels {
+namespace Neural {
 	public enum ActivatorFunc {
 		Sigmoid,
 		TanHyperbolic,

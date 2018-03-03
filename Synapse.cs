@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetworkModels {
+namespace Neural {
 	public class Synapse {
 		public Neuron sourceNeuron, targetNeuron;
 		public double Weight, deltaWeight;

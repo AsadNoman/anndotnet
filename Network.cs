@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NetworkModels {
+namespace Neural {
 	public class Network {
 		public static double learnRate = .3, minimumError = .01;
 		public List<Layer> Layers;

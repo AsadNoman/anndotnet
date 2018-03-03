@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NetworkModels {
+namespace Neural {
     public class Layer {
         public List<Neuron> Neurons;
         public Layer(int Size) {
